@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tabla que envuelve TODA la hoja de vida */
+.tabla-principal {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* espacio vertical entre secciones */
+}
+
+/* Cada "caja" del boceto (encabezado, perfil, estudios, idiomas, skills) */
+.seccion {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    border-collapse: separate;
+    padding: 15px;
+}
+
+.seccion caption {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* SECCIÓN 1: Encabezado con foto + info personal */
+.tabla-encabezado {
+    border: none;
+}
+
+.celda-foto {
+    width: 130px;
+    vertical-align: top;
+}
+
+.foto-perfil {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #4CAF50;
+}
+
+.celda-info {
+    vertical-align: top;
+}
+
+.tabla-info {
+    width: 100%;
+}
+
+.tabla-info caption {
+    text-align: left;
+    font-size: 20px;
+}
+
+.tabla-info th {
+    text-align: left;
+    width: 100px;
+    padding: 4px 0;
+}
+
+.tabla-info td {
+    text-align: left;
+    padding: 4px 0;
+}
+
+/* SECCIÓN 3: Estudios básicos y profesionales lado a lado */
+.tabla-estudios {
+    border: none;
+}
+
+.celda-estudio {
+    width: 50%;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.subtabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subtabla caption {
+    font-size: 16px;
+}
+
+.subtabla th, .subtabla td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
+
+.subtabla th {
+    background-color: #eafaf1;
+}
+
+/* SECCIÓN 4: Idiomas */
+.tabla-idiomas {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-idiomas th, .tabla-idiomas td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-idiomas th {
+    background-color: #eafaf1;
+}
+
+/* SECCIÓN 5: Skills */
+.tabla-skills {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-skills th, .tabla-skills td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-skills th {
+    background-color: #eafaf1;
+    width: 120px;
+}
